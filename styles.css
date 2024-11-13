@@ -1,0 +1,96 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    padding: 20px;
+}
+
+/* Estilo do título principal */
+h1 {
+    text-align: center;
+    color: #0077cc; /* Azul */
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out; /* Animação de entrada */
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Estilo da lista ordenada */
+ol {
+    margin-left: 20px;
+}
+
+/* Estilo do botão */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #0077cc; /* Azul */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+button:hover {
+    background-color: #005fa3; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Estilo do iframe */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #0077cc; /* Borda azul */
+    border-radius: 10px; /* Bordas arredondadas */
+    animation: slideIn 1s ease-in-out; /* Animação de entrada */
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Estilo para a lista de avanços */
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e6f7ff; /* Fundo claro para os itens da lista */
+    border-left: 5px solid #0077cc; /* Borda azul à esquerda */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+li:hover {
+    transform: translateX(5px); /* Efeito de movimento ao passar o mouse */
+}
+
+.css
